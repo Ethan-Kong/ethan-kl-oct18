@@ -20,6 +20,8 @@ print(currDate.day);
 """upper case of %Y show 4 digits of year"""
 """lowe case of %b show short name of month"""
 """upper case of %B show full name of month"""
+"""lowe case of %a show short name of day"""
+"""upper case of %A show full name of day"""
 
 print(currDate.strftime('%d %b, %y')); 
 print(currDate.strftime('%d %b, %Y')); 
