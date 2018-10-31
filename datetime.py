@@ -8,7 +8,7 @@ Created on Wed Oct 31 10:10:39 2018
 import datetime;
 currDate = datetime.date.today();
 
-"""Example of Datet"""
+"""Example of Date"""
 print(datetime.date.today());
 print(currDate);
 print(currDate.year);
