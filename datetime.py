@@ -16,10 +16,10 @@ print(currDate.month);
 print(currDate.day);
 
 """Format Date"""
-"""lowe case of %y show 2 digits"""
-"""upper case of %Y show 4 digits"""
-"""lowe case of %b show short month"""
-"""upper case of %B show full month"""
+"""lowe case of %y show 2 digits of year"""
+"""upper case of %Y show 4 digits of year"""
+"""lowe case of %b show short name of month"""
+"""upper case of %B show full name of month"""
 
 print(currDate.strftime('%d %b, %y')); 
 print(currDate.strftime('%d %b, %Y')); 
