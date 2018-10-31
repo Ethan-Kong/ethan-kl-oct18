@@ -16,12 +16,12 @@ print(currDate.month);
 print(currDate.day);
 
 """Format Date"""
-print(currDate.strftime('%d %b, %y')); 
-
 """lowe case of %y show 2 digits"""
 """upper case of %Y show 4 digits"""
 """lowe case of %b show short month"""
 """upper case of %B show full month"""
 
+print(currDate.strftime('%d %b, %y')); 
 print(currDate.strftime('%d %b, %Y')); 
 print(currDate.strftime('%A %d %B, %Y'));
+print(currDate.strftime('Please attend our event %A, %B %d in the year %Y'));
