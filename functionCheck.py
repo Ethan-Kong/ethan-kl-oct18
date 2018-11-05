@@ -28,12 +28,15 @@ def addTwo(var1, var2) :
 
 #print("Sum of 5 + 5 = " + str(addTwo(5,5)))
     
-def printInfo(name, age) :
+def printInfo(name, age=40, location="KL") :
     print ("Name: ", name)
     print ("Age: ", age)
+    print ("Location: ", location)
     return;
 
-""" 2 way of calling of function """
+""" Way of calling of function """
 printInfo("Elle",50)    
-printInfo(age=50,name="Elle")
+printInfo(age=50,name="Elle",location="LA")
+printInfo(name="Elle")
+printInfo(name="Elle")
     
