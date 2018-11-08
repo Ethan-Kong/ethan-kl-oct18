@@ -21,3 +21,5 @@ puppy1.bark()
 
 puppy2 = Puppy("Ruby","red")
 puppy2.bark()
+
+print(puppy2.name)
