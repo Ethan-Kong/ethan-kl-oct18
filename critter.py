@@ -6,11 +6,12 @@ Created on Thu Nov  8 10:56:59 2018
 """
 
 class Critter :
+    
     def __init__(self, msg) :        
         self.msg = msg
         
     def talk(self) :
-      print(self.msg)  
+      print(self.msg + "\n")  
       
     def myName(self) :
       print("I am Test...")      
