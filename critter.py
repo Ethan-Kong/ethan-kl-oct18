@@ -11,6 +11,10 @@ class Critter :
         
     def talk(self) :
       print(self.msg)  
+      
+    def myName(self) :
+      print("I am Test...")      
 
 critter1 = Critter("Hi!")
 critter1.talk()
+critter1.myName()
