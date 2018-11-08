@@ -10,7 +10,7 @@ class Critter :
         self.msg = msg
         
     def talk(self) :
-      print(self.para)  
+      print(self.msg)  
 
 critter1 = Critter("Hi!")
 critter1.talk()
